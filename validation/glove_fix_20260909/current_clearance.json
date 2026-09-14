@@ -1,0 +1,20 @@
+{
+  "右手套": {
+    "overlap_pairs": 1851,
+    "by_type": {
+      "fabric": 1608,
+      "hardware": 243
+    },
+    "negative_vertices": 1318,
+    "worst_inside": -0.007620046701049432
+  },
+  "左手套": {
+    "overlap_pairs": 1925,
+    "by_type": {
+      "fabric": 1637,
+      "hardware": 288
+    },
+    "negative_vertices": 1064,
+    "worst_inside": -0.007752436533337459
+  }
+}

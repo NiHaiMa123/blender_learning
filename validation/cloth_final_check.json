@@ -1,0 +1,182 @@
+{
+  "blend": "D:\\software\\blender\\project\\今汐_cloth_rebuild_final.blend",
+  "scene_frames": [
+    1,
+    120,
+    120
+  ],
+  "CLOTH_REBUILD_SKIRT": {
+    "exists": true,
+    "hide_viewport": false,
+    "hide_render": false,
+    "verts": 7028,
+    "faces": 9140
+  },
+  "CLOTH_REBUILD_BODY_COLLIDER": {
+    "exists": true,
+    "hide_viewport": false,
+    "hide_render": true,
+    "verts": 9145,
+    "faces": 15802
+  },
+  "CLOTH_REBUILD_BODY_STATIC": {
+    "exists": true,
+    "hide_viewport": false,
+    "hide_render": false,
+    "verts": 63232,
+    "faces": 94825
+  },
+  "cloth_modifier": {
+    "exists": true,
+    "type": "CLOTH"
+  },
+  "cloth": {
+    "quality": 7,
+    "mass": 0.25,
+    "time_scale": 0.5,
+    "pin_group": "CLOTH_PIN_WAIST",
+    "use_collision": true,
+    "use_self_collision": false,
+    "cache_frames": [
+      1,
+      120,
+      1
+    ],
+    "use_disk_cache": true,
+    "is_baked": true
+  },
+  "pin_group": {
+    "exists": true,
+    "pin_weight": 1.0,
+    "pin_vertices": 3195,
+    "free_vertices": 3833
+  },
+  "materials": [
+    "头饰",
+    "头饰金属",
+    "耳坠",
+    "项链金属",
+    "项链花",
+    "袖子",
+    "袖子2",
+    "鞋子",
+    "皮肤",
+    "metal leg",
+    "后发",
+    "后发+",
+    "前发",
+    "前发+",
+    "声痕",
+    "声痕-满",
+    "白",
+    "eye",
+    "eyehi2",
+    "eyehi1",
+    "eye hi",
+    "牙lip",
+    "舌",
+    "口",
+    "鼻",
+    "眉",
+    "jie",
+    "bai2",
+    "痣",
+    "后",
+    "face",
+    "eye+",
+    "heart",
+    "star",
+    "外裙子",
+    "外裙子前外",
+    "外裙子内里",
+    "外裙子2",
+    "外裙子隐藏",
+    "外裙子内侧",
+    "前带子",
+    "后带子",
+    "前带子两条",
+    "纱内侧",
+    "纱外侧",
+    "Cheek",
+    "emo3",
+    "Diag_Plain",
+    "Diag_Transp",
+    "Codex Shoe Heel Metal"
+  ],
+  "body_collision": {
+    "use": true,
+    "thickness_outer": 0.019999999552965164,
+    "thickness_inner": 0.019999999552965164,
+    "damping": 0.6000000238418579
+  },
+  "samples": [
+    {
+      "frame": 1,
+      "center": [
+        -0.000222,
+        0.004638,
+        1.054468
+      ],
+      "min": [
+        -0.27571,
+        -0.090655,
+        0.526887
+      ],
+      "max": [
+        0.27571,
+        0.205844,
+        1.318744
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 0.0,
+      "free_mean_displacement": 0.0,
+      "free_max_displacement": 0.0
+    },
+    {
+      "frame": 80,
+      "center": [
+        -0.000222,
+        0.004638,
+        1.054468
+      ],
+      "min": [
+        -0.27571,
+        -0.090655,
+        0.526887
+      ],
+      "max": [
+        0.27571,
+        0.205844,
+        1.318744
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 0.0,
+      "free_mean_displacement": 0.0,
+      "free_max_displacement": 0.0
+    },
+    {
+      "frame": 120,
+      "center": [
+        -0.000222,
+        0.004638,
+        1.054468
+      ],
+      "min": [
+        -0.27571,
+        -0.090655,
+        0.526887
+      ],
+      "max": [
+        0.27571,
+        0.205844,
+        1.318744
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 0.0,
+      "free_mean_displacement": 0.0,
+      "free_max_displacement": 0.0
+    }
+  ],
+  "non_finite_total": 0,
+  "passed": false
+}

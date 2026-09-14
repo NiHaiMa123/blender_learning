@@ -1,0 +1,16 @@
+{
+  "右手套": {
+    "vertices": 38003,
+    "polygons": 36156,
+    "bound": true,
+    "fabric_source_vertices": 1385,
+    "clearance": 0.0012000000569969416
+  },
+  "左手套": {
+    "vertices": 38003,
+    "polygons": 36156,
+    "bound": true,
+    "fabric_source_vertices": 1385,
+    "clearance": 0.0012000000569969416
+  }
+}

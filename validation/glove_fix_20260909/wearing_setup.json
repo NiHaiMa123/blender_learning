@@ -1,0 +1,9 @@
+{
+  "mask": "达妮娅_mesh / 穿戴手套_隐藏内部手部",
+  "mask_enabled": true,
+  "masked_vertices": 6970,
+  "custom_toggle_driver": false,
+  "body_geometry_edited": false,
+  "restored_pose": true,
+  "source_file": "D:/project/blender_learning/达妮娅_鞋子变形修复.blend"
+}

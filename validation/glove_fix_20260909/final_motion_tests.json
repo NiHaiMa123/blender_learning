@@ -1,0 +1,227 @@
+[
+  {
+    "pose": "original_fitted_pose",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.0,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.0,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.0,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.0,
+        "finite": true
+      }
+    },
+    "seconds": 0.1437954000002719
+  },
+  {
+    "pose": "wrist_(1, 0, 0)_-35",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.07414290308952332,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.07425056397914886,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.04568559676408768,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.04594265669584274,
+        "finite": true
+      }
+    },
+    "seconds": 0.1801694999994652
+  },
+  {
+    "pose": "wrist_(1, 0, 0)_35",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.0741427093744278,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.07425077259540558,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.04568544030189514,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.04594283178448677,
+        "finite": true
+      }
+    },
+    "seconds": 0.153696299999865
+  },
+  {
+    "pose": "wrist_(0, 0, 1)_-25",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.05311184003949165,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.05314404517412186,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.032482411712408066,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.03275603428483009,
+        "finite": true
+      }
+    },
+    "seconds": 0.16917800000010175
+  },
+  {
+    "pose": "wrist_(0, 0, 1)_25",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.05311181768774986,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.05314400792121887,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.032482583075761795,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.032756008207798004,
+        "finite": true
+      }
+    },
+    "seconds": 0.16744779999953607
+  },
+  {
+    "pose": "half_curl",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.06282352656126022,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.06287319213151932,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.01152107398957014,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.01150995772331953,
+        "finite": true
+      }
+    },
+    "seconds": 0.16723300000012387
+  },
+  {
+    "pose": "full_curl",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.10034140944480896,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.10043279826641083,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.02198421023786068,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.022366663441061974,
+        "finite": true
+      }
+    },
+    "seconds": 0.166198699999768
+  },
+  {
+    "pose": "index_independent_curl",
+    "objects": {
+      "右手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.09774377942085266,
+        "finite": true
+      },
+      "左手套": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.09861329942941666,
+        "finite": true
+      },
+      "右手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.020831871777772903,
+        "finite": true
+      },
+      "左手套_腕部装饰": {
+        "visible_body_crossing_pairs": 0,
+        "max_motion": 0.024428466334939003,
+        "finite": true
+      }
+    },
+    "seconds": 0.1679642999997668
+  },
+  {
+    "restored_glove_max_error": {
+      "右手套": 0.0,
+      "左手套": 0.0,
+      "右手套_腕部装饰": 0.0,
+      "左手套_腕部装饰": 0.0
+    },
+    "shoes_max_error": {
+      "左鞋子_鞋面": 0.0,
+      "右鞋子_鞋面": 0.0,
+      "左鞋子_脚部": 0.0,
+      "右鞋子_脚部": 0.0
+    }
+  },
+  {
+    "mask_disabled_original_body_error": 0.0
+  }
+]

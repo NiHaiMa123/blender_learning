@@ -1,0 +1,25 @@
+# 大文件/资产不上传
+*.blend
+*.blend1
+*.blend2
+cache/
+备份/
+参考/
+.opencode/
+__pycache__/
+node_modules/
+
+# 图片默认忽略
+*.png
+*.jpg
+*.jpeg
+
+# 旧 renders 不上传;只有本项目 maple 输出图推送(远程查看用)
+renders/*
+!renders/maple/
+!renders/maple/*.png
+!renders/maple/*.jpg
+
+# 系统
+.DS_Store
+Thumbs.db

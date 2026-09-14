@@ -1,0 +1,236 @@
+[
+  {
+    "pose": "baseline",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 34,
+        "max_motion": 0.0
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 19,
+        "max_motion": 0.0
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 3,
+        "max_motion": 0.0
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 0,
+        "max_motion": 0.0
+      }
+    }
+  },
+  {
+    "pose": "足首D.X-25",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 29,
+        "max_motion": 0.020888471975922585
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 31,
+        "max_motion": 0.020382488146424294
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 100,
+        "max_motion": 0.0762380063533783
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 78,
+        "max_motion": 0.07685881108045578
+      }
+    }
+  },
+  {
+    "pose": "足首D.X25",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 190,
+        "max_motion": 0.021987969055771828
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 187,
+        "max_motion": 0.0214057769626379
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 19,
+        "max_motion": 0.07623806595802307
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 19,
+        "max_motion": 0.07685872167348862
+      }
+    }
+  },
+  {
+    "pose": "足首D.Y-15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 48,
+        "max_motion": 0.012211738154292107
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 46,
+        "max_motion": 0.011926844716072083
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 45,
+        "max_motion": 0.05956313759088516
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 78,
+        "max_motion": 0.03547228127717972
+      }
+    }
+  },
+  {
+    "pose": "足首D.Y15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 46,
+        "max_motion": 0.012137997895479202
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 21,
+        "old_rigid_crossings": 58,
+        "max_motion": 0.011983782984316349
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 54,
+        "max_motion": 0.0595645010471344
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 32,
+        "max_motion": 0.035472359508275986
+      }
+    }
+  },
+  {
+    "pose": "足首D.Z-15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 33,
+        "max_motion": 0.00802023895084858
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 36,
+        "max_motion": 0.007591997738927603
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 26,
+        "max_motion": 0.05769452080130577
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 74,
+        "max_motion": 0.0315728597342968
+      }
+    }
+  },
+  {
+    "pose": "足首D.Z15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 33,
+        "max_motion": 0.007887379266321659
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 33,
+        "max_motion": 0.0077069420367479324
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 56,
+        "max_motion": 0.05769374221563339
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 28,
+        "max_motion": 0.0315730944275856
+      }
+    }
+  },
+  {
+    "pose": "足先EX.X-15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 34,
+        "max_motion": 0.0
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 19,
+        "max_motion": 0.0
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 145,
+        "max_motion": 0.024471227079629898
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 113,
+        "max_motion": 0.024651356041431427
+      }
+    }
+  },
+  {
+    "pose": "足先EX.X15",
+    "shoes": {
+      "左鞋子_鞋面": {
+        "surface_crossings": 34,
+        "old_rigid_crossings": 34,
+        "max_motion": 0.0
+      },
+      "右鞋子_鞋面": {
+        "surface_crossings": 19,
+        "old_rigid_crossings": 19,
+        "max_motion": 0.0
+      },
+      "左鞋子_脚部": {
+        "surface_crossings": 3,
+        "old_rigid_crossings": 3,
+        "max_motion": 0.0244712196290493
+      },
+      "右鞋子_脚部": {
+        "surface_crossings": 0,
+        "old_rigid_crossings": 0,
+        "max_motion": 0.024651477113366127
+      }
+    }
+  },
+  {
+    "restored_max_error": {
+      "达妮娅_mesh": 0.0,
+      "左鞋子_鞋面": 1.3033192658440385e-07,
+      "右鞋子_鞋面": 1.431209852853499e-07,
+      "左鞋子_脚部": 1.1715430758840739e-07,
+      "右鞋子_脚部": 1.194999725839807e-07
+    }
+  }
+]

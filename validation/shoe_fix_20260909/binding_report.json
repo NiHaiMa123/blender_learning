@@ -1,0 +1,23 @@
+{
+  "左鞋子_鞋面": {
+    "bound": true,
+    "vertices": 692,
+    "max_world_displacement": 1.3033192658440385e-07
+  },
+  "右鞋子_鞋面": {
+    "bound": true,
+    "vertices": 692,
+    "max_world_displacement": 1.431209852853499e-07
+  },
+  "左鞋子_脚部": {
+    "bound": true,
+    "vertices": 849,
+    "max_world_displacement": 1.1715430758840739e-07
+  },
+  "右鞋子_脚部": {
+    "bound": true,
+    "vertices": 854,
+    "max_world_displacement": 1.194999725839807e-07
+  },
+  "body_max_displacement": 0.0
+}

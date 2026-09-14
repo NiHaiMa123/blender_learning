@@ -1,0 +1,31 @@
+import bpy
+from mathutils import Vector
+
+scene = bpy.context.scene
+target = Vector((1.0, -7.0, 0.82))
+old_cam = scene.camera
+cam_data = bpy.data.cameras.new('CLOTH_REBUILD_DEBUG_CAMERA_DATA')
+cam = bpy.data.objects.new('CLOTH_REBUILD_DEBUG_CAMERA', cam_data)
+scene.collection.objects.link(cam)
+cam.location = (3.8, -15.0, 1.35)
+cam.rotation_euler = (target - cam.location).to_track_quat('-Z', 'Y').to_euler()
+cam.data.lens = 58
+scene.camera = cam
+old = (scene.render.engine, scene.render.resolution_percentage, scene.render.filepath)
+cycles = scene.cycles if hasattr(scene, 'cycles') else None
+old_samples = cycles.samples if cycles and scene.render.engine == 'CYCLES' else None
+scene.render.resolution_percentage = 50
+if old_samples is not None:
+    cycles.samples = 16
+for f, tag in [(1, 'f001'), (40, 'f040')]:
+    scene.frame_set(f)
+    scene.render.filepath = r'D:\project\blender_learning\renders\cloth_debug_view_%s.png' % tag
+    bpy.ops.render.render(write_still=True)
+scene.camera = old_cam
+scene.render.engine, scene.render.resolution_percentage, scene.render.filepath = old
+if old_samples is not None:
+    cycles.samples = old_samples
+bpy.data.objects.remove(cam, do_unlink=True)
+bpy.data.cameras.remove(cam_data)
+scene.frame_set(40)
+print('DONE')

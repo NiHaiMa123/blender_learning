@@ -1,0 +1,58 @@
+{
+  "filepath": "D:\\software\\blender\\project\\今汐_cloth_rebuild_final.blend",
+  "cloth_modifier": "CLOTH",
+  "baked": true,
+  "disk_cache": true,
+  "cache_filepath": "D:\\software\\blender\\project\\blendcache_今汐_cloth_rebuild_final\\",
+  "pin_vertices": 92,
+  "free_vertices": 3142,
+  "visible_body": true,
+  "collider_hidden_viewport": true,
+  "armature_hidden_viewport": true,
+  "root_location": [
+    1.0,
+    -7.0,
+    0.0
+  ],
+  "root_rotation": [
+    0.0,
+    0.0,
+    4.101524
+  ],
+  "samples": [
+    {
+      "frame": 1,
+      "center": [
+        -0.003301,
+        0.204457,
+        0.746104
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 0.0,
+      "free_mean_displacement": 0.0
+    },
+    {
+      "frame": 80,
+      "center": [
+        -0.00801,
+        0.065157,
+        0.691449
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 7.1e-07,
+      "free_mean_displacement": 0.17177152
+    },
+    {
+      "frame": 120,
+      "center": [
+        -0.010842,
+        0.044519,
+        0.718955
+      ],
+      "non_finite": 0,
+      "pinned_max_displacement": 7.1e-07,
+      "free_mean_displacement": 0.18922841
+    }
+  ],
+  "passed": true
+}

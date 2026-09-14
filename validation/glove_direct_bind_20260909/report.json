@@ -1,0 +1,31 @@
+{
+  "source_file": "D:/project/blender_learning/达妮娅_鞋子变形修复_手套绑定前备份_20260909_193757.blend",
+  "output_file": "D:/project/blender_learning/达妮娅_鞋子变形修复_手套直接骨骼绑定_当前姿势保持_20260909.blend",
+  "objects": {
+    "左手套": {
+      "vertices": 1987,
+      "shape_keys_preserved": 186,
+      "armature": "达妮娅_arm",
+      "current_pose_max_error": 3.371747880871523e-07,
+      "restored_pose_max_error": 3.371747880871523e-07
+    },
+    "右手套": {
+      "vertices": 1987,
+      "shape_keys_preserved": 186,
+      "armature": "达妮娅_arm",
+      "current_pose_max_error": 3.6863436927953305e-07,
+      "restored_pose_max_error": 3.6863436927953305e-07
+    }
+  },
+  "body_mask": {
+    "vertex_group": "手套穿戴_内部皮肤与指甲",
+    "masked_vertices": 6970,
+    "arms_kept": true,
+    "reversible_modifier": "穿戴手套_隐藏内部手部",
+    "evaluated_vertices_after_mask": 66852
+  },
+  "finger_test_15deg": {
+    "左手套": 0.020953581103896505,
+    "右手套": 0.020953348453696875
+  }
+}

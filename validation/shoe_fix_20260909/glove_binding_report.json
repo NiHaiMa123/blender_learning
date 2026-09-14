@@ -1,0 +1,40 @@
+{
+  "backup": "D:\\project\\blender_learning\\达妮娅_鞋子变形修复_手套绑定前备份_20260909_193757.blend",
+  "objects": {
+    "左手套": {
+      "target": "手套变形参考.L",
+      "bound": true,
+      "fit_translation": [
+        -0.02429753541946411,
+        -0.11789840459823608,
+        0.009375572204589844
+      ],
+      "max_displacement_after_bind": 2.4553937733836915e-06,
+      "vertices": 1987
+    },
+    "右手套": {
+      "target": "手套变形参考.R",
+      "bound": true,
+      "fit_translation": [
+        0.024297267198562622,
+        -0.11909950524568558,
+        0.009101808071136475
+      ],
+      "max_displacement_after_bind": 4.473315576056345e-06,
+      "vertices": 1987
+    }
+  },
+  "reference": {
+    "L": {
+      "faces": 6025,
+      "vertices": 3076,
+      "target": "手套变形参考.L"
+    },
+    "R": {
+      "faces": 6025,
+      "vertices": 3076,
+      "target": "手套变形参考.R"
+    }
+  },
+  "saved_result": "D:\\project\\blender_learning\\达妮娅_鞋子变形修复.blend"
+}

@@ -1,0 +1,16 @@
+{
+  "右手套": {
+    "fabric_vertices": 3024,
+    "fabric_faces": 5903,
+    "hardware_vertices": 602,
+    "clearance": 0.001500000013038516,
+    "wrist_cutoff": -0.023
+  },
+  "左手套": {
+    "fabric_vertices": 3024,
+    "fabric_faces": 5903,
+    "hardware_vertices": 602,
+    "clearance": 0.001500000013038516,
+    "wrist_cutoff": -0.023
+  }
+}
