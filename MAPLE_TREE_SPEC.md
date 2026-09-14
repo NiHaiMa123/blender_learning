@@ -5,20 +5,25 @@ left 42% of frame. All lengths normalized to visible trunk height Ht≈7m.
 
 ## Silhouette (view-plane, camera looks +Y)
 
-Trunk centerline (x is horizontal offset from base center, z up):
+Measured from extracted mask `renders/maple/ref_branches_silhouette.png`
+(luminance+redness threshold, largest connected component).
+
+Trunk centerline (x offset from base center, z up):
 
 | z/Ht | x offset | radius/Ht | note |
 |------|----------|-----------|------|
-| 0.00 | 0.00     | 0.090     | base, flares into roots |
-| 0.15 | -0.06    | 0.080     | slight left lean |
-| 0.35 | -0.10    | 0.072     | rising left |
-| 0.52 | -0.14    | 0.066     | LEFT ELBOW bulge — hard-ish kink |
-| 0.68 | -0.08    | 0.058     | returns right; right edge concave |
-| 0.85 | -0.04    | 0.048     | upper column |
-| 1.00 | -0.10    | 0.038     | top kinks LEFT into co-leader |
+| 0.00 | 0.00     | 0.115     | base, flares into roots — dia 0.23 Ht |
+| 0.15 | -0.05    | 0.100     | slight left lean |
+| 0.35 | -0.10    | 0.088     | rising left |
+| 0.52 | -0.145   | 0.082     | LEFT ELBOW — smooth convex bulge |
+| 0.62 | -0.12    | 0.072     | |
+| 0.72 | -0.07    | 0.060     | WAIST pinch (waist/base dia ≈ 0.64) |
+| 0.82 | -0.02    | 0.072     | fork swells — limbs converge into mass |
+| 0.92 | -0.06    | 0.058     | |
+| 1.00 | -0.12    | 0.045     | top kinks LEFT into co-leader |
 
 Left edge = one long convex arc base→elbow→top. Right edge concave between
-elbow and fork.
+elbow and waist. Fork zone = swollen dark mass, not a clean taper.
 
 ## Branch skeleton — FEW and LONG (foliage gives mass, not twigs)
 
