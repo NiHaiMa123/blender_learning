@@ -1,0 +1,520 @@
+{
+ "saved_images": [
+  [
+   "archmodels52_030_bark_diffuse.jpg",
+   "archmodels52_030_bark_diffuse_jpg.jpg",
+   [
+    1600,
+    2317
+   ]
+  ],
+  [
+   "archmodels52_030_bark_diffuse_1.jpg",
+   "archmodels52_030_bark_diffuse_1_jpg.jpg",
+   [
+    1600,
+    2317
+   ]
+  ],
+  [
+   "archmodels52_030_bark_diffuse_2.jpg",
+   "archmodels52_030_bark_diffuse_2_jpg.jpg",
+   [
+    1600,
+    2317
+   ]
+  ],
+  [
+   "archmodels52_030_bark_diffuse_3.jpg",
+   "archmodels52_030_bark_diffuse_3_jpg.jpg",
+   [
+    1600,
+    2317
+   ]
+  ],
+  [
+   "archmodels58_044_pear_flower_opacity.jpg",
+   "archmodels58_044_pear_flower_opacity_jpg.jpg",
+   [
+    508,
+    581
+   ]
+  ],
+  [
+   "cgaxis_tree_15_01.jpg.001",
+   "cgaxis_tree_15_01_jpg_001.jpg",
+   [
+    800,
+    800
+   ]
+  ],
+  [
+   "cgaxis_tree_15_01_bump.jpg.001",
+   "cgaxis_tree_15_01_bump_jpg_001.jpg",
+   [
+    800,
+    800
+   ]
+  ],
+  [
+   "cgaxis_tree_15_02.jpg.001",
+   "cgaxis_tree_15_02_jpg_001.jpg",
+   [
+    461,
+    700
+   ]
+  ],
+  [
+   "cgaxis_tree_15_02_opacity.jpg.001",
+   "cgaxis_tree_15_02_opacity_jpg_001.jpg",
+   [
+    461,
+    700
+   ]
+  ],
+  [
+   "iBushes-Petal-04.jpg",
+   "iBushes-Petal-04_jpg.jpg",
+   [
+    130,
+    150
+   ]
+  ],
+  [
+   "Map #60.jpg",
+   "Map 60_jpg.jpg",
+   [
+    508,
+    581
+   ]
+  ]
+ ],
+ "material": {
+  "nodes": [
+   {
+    "name": "Material Output",
+    "type": "ShaderNodeOutputMaterial",
+    "inputs": {
+     "Displacement": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Thickness": 0.0
+    }
+   },
+   {
+    "name": "Principled BSDF",
+    "type": "ShaderNodeBsdfPrincipled",
+    "inputs": {
+     "Base Color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Metallic": 0.0,
+     "Roughness": 0.0,
+     "IOR": 1.600000023841858,
+     "Alpha": 1.0,
+     "Thin Wall": false,
+     "Normal": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Weight": 0.0,
+     "Diffuse Roughness": 0.0,
+     "Subsurface Weight": 0.0,
+     "Subsurface Radius": [
+      1.0,
+      0.20000000298023224,
+      0.10000000149011612
+     ],
+     "Subsurface Scale": 0.05000000074505806,
+     "Subsurface IOR": 1.399999976158142,
+     "Subsurface Anisotropy": 0.0,
+     "Specular IOR Level": 0.03999999910593033,
+     "Specular Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Anisotropic": 0.0,
+     "Anisotropic Rotation": 0.0,
+     "Tangent": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Transmission Weight": 0.0,
+     "Coat Weight": 0.0,
+     "Coat Roughness": 0.029999999329447746,
+     "Coat IOR": 1.5,
+     "Coat Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Coat Normal": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Sheen Weight": 0.0,
+     "Sheen Roughness": 0.5,
+     "Sheen Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Emission Color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "Emission Strength": 0.20000000298023224,
+     "Thin Film Thickness": 0.0,
+     "Thin Film IOR": 1.3300000429153442
+    }
+   },
+   {
+    "name": "Image Texture",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "iBushes-Petal-04.jpg"
+   },
+   {
+    "name": "Image Texture.001",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "archmodels58_044_pear_flower_opacity.jpg"
+   },
+   {
+    "name": "Image Texture.002",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "Map #60.jpg"
+   },
+   {
+    "name": "Bump",
+    "type": "ShaderNodeBump",
+    "inputs": {
+     "Strength": 0.30000001192092896,
+     "Distance": 2.0,
+     "Filter Width": 1.0,
+     "Height": 1.0,
+     "Normal": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "name": "色相/饱和度/明度",
+    "type": "ShaderNodeHueSaturation",
+    "inputs": {
+     "Hue": 0.6000000238418579,
+     "Saturation": 1.0,
+     "Value": 2.0,
+     "Factor": 1.0,
+     "Color": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+     ]
+    }
+   },
+   {
+    "name": "亮度 / 对比度",
+    "type": "ShaderNodeBrightContrast",
+    "inputs": {
+     "Color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Brightness": 0.0,
+     "Contrast": 0.20000000298023224
+    }
+   },
+   {
+    "name": "Principled BSDF.001",
+    "type": "ShaderNodeBsdfPrincipled",
+    "inputs": {
+     "Base Color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Metallic": 0.0,
+     "Roughness": 1.0,
+     "IOR": 1.600000023841858,
+     "Alpha": 1.0,
+     "Thin Wall": false,
+     "Normal": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Weight": 0.0,
+     "Diffuse Roughness": 0.0,
+     "Subsurface Weight": 0.0,
+     "Subsurface Radius": [
+      1.0,
+      0.20000000298023224,
+      0.10000000149011612
+     ],
+     "Subsurface Scale": 0.05000000074505806,
+     "Subsurface IOR": 1.399999976158142,
+     "Subsurface Anisotropy": 0.0,
+     "Specular IOR Level": 0.03999999910593033,
+     "Specular Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Anisotropic": 0.0,
+     "Anisotropic Rotation": 0.0,
+     "Tangent": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Transmission Weight": 0.0,
+     "Coat Weight": 0.0,
+     "Coat Roughness": 0.029999999329447746,
+     "Coat IOR": 1.5,
+     "Coat Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Coat Normal": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "Sheen Weight": 0.0,
+     "Sheen Roughness": 0.5,
+     "Sheen Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Emission Color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "Emission Strength": 0.20000000298023224,
+     "Thin Film Thickness": 0.0,
+     "Thin Film IOR": 1.3300000429153442
+    }
+   },
+   {
+    "name": "Image Texture.003",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "iBushes-Petal-04.jpg"
+   },
+   {
+    "name": "Image Texture.004",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "archmodels58_044_pear_flower_opacity.jpg"
+   },
+   {
+    "name": "Image Texture.005",
+    "type": "ShaderNodeTexImage",
+    "inputs": {
+     "Vector": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "image": "Map #60.jpg"
+   },
+   {
+    "name": "Bump.001",
+    "type": "ShaderNodeBump",
+    "inputs": {
+     "Strength": 0.30000001192092896,
+     "Distance": 2.0,
+     "Filter Width": 1.0,
+     "Height": 1.0,
+     "Normal": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "name": "色相/饱和度/明度.001",
+    "type": "ShaderNodeHueSaturation",
+    "inputs": {
+     "Hue": 0.6299999952316284,
+     "Saturation": 1.8000001907348633,
+     "Value": 0.800000011920929,
+     "Factor": 1.0,
+     "Color": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+     ]
+    }
+   },
+   {
+    "name": "亮度 / 对比度.001",
+    "type": "ShaderNodeBrightContrast",
+    "inputs": {
+     "Color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "Brightness": 1.0,
+     "Contrast": 10.0
+    }
+   }
+  ],
+  "links": [
+   [
+    "Image Texture.001",
+    "Color",
+    "Principled BSDF",
+    "Alpha"
+   ],
+   [
+    "Image Texture.002",
+    "Color",
+    "Bump",
+    "Height"
+   ],
+   [
+    "Bump",
+    "Normal",
+    "Principled BSDF",
+    "Normal"
+   ],
+   [
+    "Principled BSDF",
+    "BSDF",
+    "Material Output",
+    "Surface"
+   ],
+   [
+    "Image Texture",
+    "Color",
+    "色相/饱和度/明度",
+    "Color"
+   ],
+   [
+    "亮度 / 对比度",
+    "Color",
+    "Principled BSDF",
+    "Emission Color"
+   ],
+   [
+    "色相/饱和度/明度",
+    "Color",
+    "亮度 / 对比度",
+    "Color"
+   ],
+   [
+    "亮度 / 对比度",
+    "Color",
+    "Principled BSDF",
+    "Base Color"
+   ],
+   [
+    "Image Texture.004",
+    "Color",
+    "Principled BSDF.001",
+    "Alpha"
+   ],
+   [
+    "Image Texture.005",
+    "Color",
+    "Bump.001",
+    "Height"
+   ],
+   [
+    "Bump.001",
+    "Normal",
+    "Principled BSDF.001",
+    "Normal"
+   ],
+   [
+    "Image Texture.003",
+    "Color",
+    "色相/饱和度/明度.001",
+    "Color"
+   ],
+   [
+    "亮度 / 对比度.001",
+    "Color",
+    "Principled BSDF.001",
+    "Emission Color"
+   ],
+   [
+    "色相/饱和度/明度.001",
+    "Color",
+    "亮度 / 对比度.001",
+    "Color"
+   ],
+   [
+    "亮度 / 对比度.001",
+    "Color",
+    "Principled BSDF.001",
+    "Base Color"
+   ]
+  ]
+ }
+}
