@@ -1,0 +1,91 @@
+{
+ "cgaxis_models_05_15_obj": {
+  "name": "cgaxis_models_05_15_obj",
+  "verts": 228373,
+  "faces": 73442,
+  "islands": 66933,
+  "verts_per_island": {
+   "min": 2,
+   "max": 127,
+   "mean": 3.4,
+   "median": 4
+  },
+  "flat_ratio_mean": 0.0003,
+  "flat_ratio_p10": 0.0,
+  "flat_ratio_p90": 0.0,
+  "sample": [
+   {
+    "verts": 3,
+    "extent": [
+     5.601,
+     0.654,
+     2.442
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 4,
+    "extent": [
+     3.282,
+     6.441,
+     4.528
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 2,
+    "extent": [
+     0.012,
+     0.56,
+     2.692
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 3,
+    "extent": [
+     4.135,
+     1.295,
+     5.728
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 3,
+    "extent": [
+     10.764,
+     1.462,
+     0.63
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 3,
+    "extent": [
+     4.699,
+     1.1,
+     1.569
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 3,
+    "extent": [
+     2.394,
+     0.393,
+     3.825
+    ],
+    "flat_ratio": 0.0
+   },
+   {
+    "verts": 3,
+    "extent": [
+     7.681,
+     3.175,
+     1.931
+    ],
+    "flat_ratio": 0.0
+   }
+  ]
+ }
+}
