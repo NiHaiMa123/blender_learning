@@ -42,7 +42,7 @@ def render_preview(name, engine='BLENDER_EEVEE_NEXT', pct=50):
 def new_principled(name, base_color, rough=0.8):
     m = bpy.data.materials.get(name) or bpy.data.materials.new(name)
     m.use_nodes = True
-    bsdf = m.node_tree.nodes.get('Principled BSDF')
+    bsdf = next(n for n in m.node_tree.nodes if n.bl_idname == 'ShaderNodeBsdfPrincipled')
     bsdf.inputs['Base Color'].default_value = (*base_color, 1)
     bsdf.inputs['Roughness'].default_value = rough
     return m
